@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glow & Glam Beauty Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+    header img {
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+    header h1 {
+      font-size: 2em;
+      margin: 0;
+    }
+    h2 {
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    img.product-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="password"],
+    select {
+      width: 100%;
+      padding: 8px;
+    }
+    .gender, .category {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 15px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #c2185b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/60?text=💄" alt="Logo">
+    <h1>Glow & Glam Beauty Store</h1>
+  </header>
+
+  <h2>Our Beauty Products</h2>
+
+  <table>
+    <tbody>
+      <!-- 8 rows × 4 columns = 32 products -->
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Lipstick"><br>ID: B001<br>Price: $12</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Foundation"><br>ID: B002<br>Price: $18</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Eyeliner"><br>ID: B003<br>Price: $8</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Mascara"><br>ID: B004<br>Price: $10</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Powder"><br>ID: B005<br>Price: $14</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Blush"><br>ID: B006<br>Price: $11</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Highlighter"><br>ID: B007<br>Price: $13</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Concealer"><br>ID: B008<br>Price: $16</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Lip Gloss"><br>ID: B009<br>Price: $7</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Makeup Brush"><br>ID: B010<br>Price: $20</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Perfume"><br>ID: B011<br>Price: $25</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Toner"><br>ID: B012<br>Price: $9</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Serum"><br>ID: B013<br>Price: $19</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Nail Polish"><br>ID: B014<br>Price: $6</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Scrub"><br>ID: B015<br>Price: $15</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Moisturizer"><br>ID: B016<br>Price: $17</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Cleanser"><br>ID: B017<br>Price: $11</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Hair Oil"><br>ID: B018<br>Price: $10</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Face Mask"><br>ID: B019<br>Price: $14</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Shampoo"><br>ID: B020<br>Price: $13</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Conditioner"><br>ID: B021<br>Price: $12</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Body Lotion"><br>ID: B022<br>Price: $9</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Essential Oil"><br>ID: B023<br>Price: $18</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="BB Cream"><br>ID: B024<br>Price: $15</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Compact"><br>ID: B025<br>Price: $10</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Face Wipes"><br>ID: B026<br>Price: $7</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Hand Cream"><br>ID: B027<br>Price: $6</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Foot Cream"><br>ID: B028<br>Price: $8</td>
+      </tr>
+      <tr>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Eye Cream"><br>ID: B029<br>Price: $14</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Makeup Remover"><br>ID: B030<br>Price: $12</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Lip Balm"><br>ID: B031<br>Price: $5</td>
+        <td><img class="product-img" src="https://via.placeholder.com/100" alt="Body Wash"><br>ID: B032<br>Price: $16</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Customer Registration</h2>
+
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="tel">Telephone Number:</label>
+    <input type="tel" id="tel" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" required>
+
+    <label>Gender:</label>
+    <div class="gender">
+      <label><input type="radio" name="gender" value="male"> Male</label>
+      <label><input type="radio" name="gender" value="female"> Female</label>
+      <label><input type="radio" name="gender" value="other"> Other</label>
+    </div>
+
+    <label for="country">Country of Birth:</label>
+    <select id="country" required>
+      <option value="">--Select Country--</option>
+      <option value="Kenya">Kenya</option>
+      <option value="Uganda">Uganda</option>
+      <option value="Tanzania">Tanzania</option>
+      <option value="Rwanda">Rwanda</option>
+      <option value="Burundi">Burundi</option>
+      <option value="South Sudan">South Sudan</option>
+    </select>
+
+    <label>Product Category:</label>
+    <div class="category">
+      <label><input type="checkbox" name="cat" value="skincare"> Skincare</label>
+      <label><input type="checkbox" name="cat" value="makeup"> Makeup</label>
+      <label><input type="checkbox" name="cat" value="fragrance"> Fragrance</label>
+      <label><input type="checkbox" name="cat" value="haircare"> Haircare</label>
+    </div>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
